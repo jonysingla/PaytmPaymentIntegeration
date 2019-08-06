@@ -4,7 +4,17 @@
 //
 //  Created by Jony on 05/08/19.
 //  Copyright © 2019 Jony. All rights reserved.
-//
+/*
+ Video on youtube:
+ https://www.youtube.com/watch?v=0AkYtrzIECA
+ Local Server Path:
+ http://localhost:8888/PaytChecksumPHP/generateChecksum.php
+ 
+ * Test Merchant ID.:  NuEPQU81601438163571 Test Account Secret Key:  h2U!Ohym_!MZbs3A 
+ Testing account:
+ https://developer.paytm.com/docs/testing-integration
+ */
+
 
 import UIKit 
 import PaymentSDK
@@ -48,7 +58,11 @@ class ViewController: UIViewController {
 //    http://localhost:8888/PaytChecksumPHP/generateChecksum.php
     
     private func getCheckSumAPICall(){
-        let apiStruct = ApiStruct(url: "http://172.29.40.121:8888/PaytChecksumPHP/generateChecksum.php", method: .post, body: params)
+        // Always check internet before call server.
+        // en0: for LAN
+        // en1 for Wifi
+//        let apiStruct = ApiStruct(url: "http://172.29.40.121:8888/PaytChecksumPHP/generateChecksum.php", method: .post, body: params)
+        let apiStruct = ApiStruct(url: "http://192.168.2.38:8888/PaytChecksumPHP/generateChecksum.php", method: .post, body: params)
         WSManager.shared.getJSONResponse(apiStruct: apiStruct, success: { (checkSumModel: CheckSumModel) in
             self.setupPaytm(checkSum: checkSumModel.CHECKSUMHASH!, params: self.params)
         }) { (error) in
