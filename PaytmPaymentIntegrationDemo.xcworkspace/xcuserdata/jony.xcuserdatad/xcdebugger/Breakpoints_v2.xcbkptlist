@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaytmPaymentIntegrationDemo/ViewController.swift"
+            timestampString = "586780447.693032"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getCheckSumAPICall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (PaytmPaymentIntegrationDemo.CheckSumModel) -&gt; () in PaytmPaymentIntegrationDemo.ViewController.(getCheckSumAPICall in _EF1F54FF12CBBCFD3596A3BF164D8017)() -&gt; ()"
+                  moduleName = "PaytmPaymentIntegrationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jony/Desktop/Paytm/PaytmPaymentIntegrationDemo/PaytmPaymentIntegrationDemo/ViewController.swift"
+                  timestampString = "586780447.77987"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "345">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Foundation.URLError) -&gt; () in PaytmPaymentIntegrationDemo.ViewController.(getCheckSumAPICall in _EF1F54FF12CBBCFD3596A3BF164D8017)() -&gt; ()"
+                  moduleName = "PaytmPaymentIntegrationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jony/Desktop/Paytm/PaytmPaymentIntegrationDemo/PaytmPaymentIntegrationDemo/ViewController.swift"
+                  timestampString = "586780447.781853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
